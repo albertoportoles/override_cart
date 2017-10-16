@@ -4,7 +4,6 @@ class Cart extends CartCore{
 
     public $carrierPorDeterminar = 0;
 
-
     public function getCarrierZone(){
         return Address::getZoneById($this->id_address_delivery);
     }
